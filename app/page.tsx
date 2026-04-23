@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import AccidentReportForm from "@/components/accident-report-form"
+import AccidentReportForm from "@/components/accident-report-form";
+import { ConversationProvider } from "@elevenlabs/react";
 
 export default function Home() {
   const [showForm, setShowForm] = useState(false);
@@ -29,7 +30,9 @@ export default function Home() {
             <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-8 text-center">
               Constatare Amiabilă de Accident
             </h1>
-            <AccidentReportForm />
+            <ConversationProvider>
+              <AccidentReportForm />
+            </ConversationProvider>
           </div>
         </>
       )}

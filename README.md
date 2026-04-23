@@ -77,7 +77,7 @@ A comprehensive guided flow covering every aspect of the legal accident report:
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/amiabila.git
+git clone https://github.com/DanD21/Amiabila.git
 cd amiabila
 
 pnpm install
@@ -129,7 +129,7 @@ The AI voice assistant is available throughout the entire process as a floating 
 - **Event:** GovTech Hackathon 2025, organized by Technovator Moldova in partnership with government institutions
 - **Challenge:** Digitization of road accident reporting — presented by the Ministry of Internal Affairs
 - **Team size:** 2 people
-- **Result:** 🥇 **First Place** — 60,000 MDL (~$3,500) prize
+- **Result:** 🥇 **First Place**
 - **Recognition:** Official gratitude diploma from the **Director of the Information Technology Service, Ministry of Internal Affairs**
 
 The Ministry's official diploma noted that the prototype was developed *"with the possibility of integrating it into the existing government services infrastructure within the governmental digital ecosystem"* and that the initiative *"makes a significant contribution toward simplifying bureaucratic processes, reducing response times, and increasing accessibility for citizens."*

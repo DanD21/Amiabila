@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { useConversation } from "@11labs/react"
+import { useConversation } from "@elevenlabs/react"
 import { Progress } from "@/components/ui/progress"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight, Mic, PhoneOff, Loader } from "lucide-react"
